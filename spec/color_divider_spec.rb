@@ -32,10 +32,10 @@ describe ColorDivider do
     end
   end
 
-  describe "#middle" do
+  describe "#middle_color" do
     let(:expected_middle_color) { "#808080" }
 
-    subject { color_divider.middle }
+    subject { color_divider.middle_color }
 
     it "divides the color in two" do
       expect(subject).to eq expected_middle_color

@@ -15,7 +15,7 @@ class ColorDivider
     @end_color
   end
 
-  def middle
+  def middle_color
     start_r, start_g, start_b = hex_to_rgb(start_color).rgb
     end_r,   end_g,   end_b   = hex_to_rgb(end_color).rgb
 

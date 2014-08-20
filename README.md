@@ -17,9 +17,9 @@ require 'color_divider'
 
 color_divider = ColorDivider.new("#000000", "#FFFFFF")
 
-color_divider.start_color #=> "#000000"
-color_divider.end_color   #=> "#FFFFFF"
-color_divider.middle      #=> "#808080
+color_divider.start_color  #=> "#000000"
+color_divider.end_color    #=> "#FFFFFF"
+color_divider.middle_color #=> "#808080
 ```
 
 ## Related Gems
