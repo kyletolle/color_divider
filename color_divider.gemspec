@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = 'color_divider'
-  s.version  = '0.0.2'
+  s.version  = '0.0.3'
   s.date     = '2014-08-17'
   s.summary  = "Find the color that's between two other hex colors."
   s.authors  = ['Kyle Tolle']
